@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		C32D5BB62919286400190E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D5BB52919286400190E4D /* AppDelegate.swift */; };
 		C32D5BB82919286400190E4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D5BB72919286400190E4D /* SceneDelegate.swift */; };
-		C32D5BBA2919286400190E4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D5BB92919286400190E4D /* ViewController.swift */; };
 		C32D5BBD2919286400190E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32D5BBB2919286400190E4D /* Main.storyboard */; };
 		C32D5BBF2919286400190E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32D5BBE2919286400190E4D /* Assets.xcassets */; };
 		C32D5BC22919286400190E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32D5BC02919286400190E4D /* LaunchScreen.storyboard */; };
+		C32D5BCE29192F9F00190E4D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D5BCD29192F9F00190E4D /* MainViewController.swift */; };
+		C32D5BD02919316000190E4D /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D5BCF2919316000190E4D /* TextViewController.swift */; };
+		C32D5BD22919321F00190E4D /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D5BD12919321F00190E4D /* DataTableViewCell.swift */; };
+		C32D5BD52919336B00190E4D /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D5BD42919336B00190E4D /* Notebook.swift */; };
+		C32D5BD82919387B00190E4D /* TextEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D5BD72919387B00190E4D /* TextEditViewController.swift */; };
+		C32D5BDD291A4EDB00190E4D /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D5BDC291A4EDB00190E4D /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C32D5BB22919286400190E4D /* Repetition_2.12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Repetition_2.12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32D5BB52919286400190E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C32D5BB72919286400190E4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C32D5BB92919286400190E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C32D5BBC2919286400190E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C32D5BBE2919286400190E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C32D5BC12919286400190E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32D5BC32919286400190E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32D5BCD29192F9F00190E4D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C32D5BCF2919316000190E4D /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		C32D5BD12919321F00190E4D /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		C32D5BD42919336B00190E4D /* Notebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notebook.swift; sourceTree = "<group>"; };
+		C32D5BD72919387B00190E4D /* TextEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditViewController.swift; sourceTree = "<group>"; };
+		C32D5BDC291A4EDB00190E4D /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,76 @@
 		C32D5BB42919286400190E4D /* Repetition_2.12 */ = {
 			isa = PBXGroup;
 			children = (
-				C32D5BB52919286400190E4D /* AppDelegate.swift */,
-				C32D5BB72919286400190E4D /* SceneDelegate.swift */,
-				C32D5BB92919286400190E4D /* ViewController.swift */,
-				C32D5BBB2919286400190E4D /* Main.storyboard */,
-				C32D5BBE2919286400190E4D /* Assets.xcassets */,
-				C32D5BC02919286400190E4D /* LaunchScreen.storyboard */,
-				C32D5BC32919286400190E4D /* Info.plist */,
+				C32D5BDE291A4EDF00190E4D /* Services */,
+				C32D5BC9291928AB00190E4D /* Supporting */,
+				C32D5BD62919337000190E4D /* Models */,
+				C32D5BCA291928C600190E4D /* ViewConrtollers */,
+				C32D5BD32919323100190E4D /* Views */,
+				C32D5BCB291928CF00190E4D /* Storyboards */,
+				C32D5BCC291928D800190E4D /* Resources */,
 			);
 			path = Repetition_2.12;
+			sourceTree = "<group>";
+		};
+		C32D5BC9291928AB00190E4D /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				C32D5BB52919286400190E4D /* AppDelegate.swift */,
+				C32D5BB72919286400190E4D /* SceneDelegate.swift */,
+				C32D5BC32919286400190E4D /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		C32D5BCA291928C600190E4D /* ViewConrtollers */ = {
+			isa = PBXGroup;
+			children = (
+				C32D5BCD29192F9F00190E4D /* MainViewController.swift */,
+				C32D5BD72919387B00190E4D /* TextEditViewController.swift */,
+				C32D5BCF2919316000190E4D /* TextViewController.swift */,
+			);
+			path = ViewConrtollers;
+			sourceTree = "<group>";
+		};
+		C32D5BCB291928CF00190E4D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C32D5BBB2919286400190E4D /* Main.storyboard */,
+				C32D5BC02919286400190E4D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C32D5BCC291928D800190E4D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C32D5BBE2919286400190E4D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C32D5BD32919323100190E4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C32D5BD12919321F00190E4D /* DataTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C32D5BD62919337000190E4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C32D5BD42919336B00190E4D /* Notebook.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C32D5BDE291A4EDF00190E4D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C32D5BDC291A4EDB00190E4D /* StorageManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32D5BBA2919286400190E4D /* ViewController.swift in Sources */,
+				C32D5BCE29192F9F00190E4D /* MainViewController.swift in Sources */,
+				C32D5BD02919316000190E4D /* TextViewController.swift in Sources */,
+				C32D5BD22919321F00190E4D /* DataTableViewCell.swift in Sources */,
 				C32D5BB62919286400190E4D /* AppDelegate.swift in Sources */,
+				C32D5BD52919336B00190E4D /* Notebook.swift in Sources */,
 				C32D5BB82919286400190E4D /* SceneDelegate.swift in Sources */,
+				C32D5BD82919387B00190E4D /* TextEditViewController.swift in Sources */,
+				C32D5BDD291A4EDB00190E4D /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +365,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S4AD5RA4FS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Repetition_2.12/Info.plist;
+				INFOPLIST_FILE = Repetition_2.12/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +393,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S4AD5RA4FS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Repetition_2.12/Info.plist;
+				INFOPLIST_FILE = Repetition_2.12/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
